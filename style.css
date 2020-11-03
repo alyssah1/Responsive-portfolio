@@ -20,13 +20,15 @@ footer {
 
 .container {
     border: 5px solid #c0d6e4;
+    padding: 30px;
+    
 }
 
 .page-header {
     text-decoration: underline;
-    
 }
 
 .main-section {
     text-decoration: underline;
+    
 }
