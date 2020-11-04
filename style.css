@@ -1,11 +1,13 @@
 .navbar-nav {
     margin-left: auto;
+    
 }
 
 .navbar-brand {
-    background-color: slateblue;
+    background-color: #ba93c6;
     font-size: 30px;
 }
+
 
 footer {
     position: fixed;
@@ -18,17 +20,24 @@ footer {
    
 }
 
-.container {
-    border: 5px solid #c0d6e4;
-    padding: 30px;
-    
+h1{
+    color: #ba93c6;
 }
+
 
 .page-header {
     text-decoration: underline;
 }
 
-.main-section {
+.portfolio-section {
     text-decoration: underline;
-    
 }
+
+.contact-section {
+    text-decoration: underline;
+}
+
+.container {
+    margin-top: 40px;
+}
+

@@ -15,7 +15,7 @@
 
 <!--Navigation bar starts here-->   
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Alyssa Hollowell</a>
+    <span class="navbar-brand">Alyssa Hollowell</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,26 +36,24 @@
 <!--End Nav-->
 
 <!--Start contact info -->
-<div class="container">
-    <section class="main-section">
+<div class="container border border-dark">
+    <section class="contact-section">
         <h1>Contact</h1>
         <form id="contact-form">
-            <ul>
-                <li>
-                    <label for="name">Name</label> 
-                    <input type="text" id="name" name="name" placeholder="Name" required="required">   
-                </li>
-                <li>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Email" required="required">
-                </li>
-                <li>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" required="required"></textarea> 
-                </li>
-            </ul>
-            <input type="submit" value="Submit">
-        </form>
+            <div class="form-group col-md-3">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="email">Email</label>
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="message">Message</label>
+                <textarea placeholder="Message"></textarea>
+              </div>
+              <button style="background-color: #ba93c6;" type="submit">Submit</button>
+          </form>
     </section>
 </div>
 <!--End contact info-->
@@ -70,7 +68,7 @@
 
 <!--footer was made-->
 <footer>
-    <p>Created by: Alyssa Hollowell</p>
+    <p>@Copyright 2020 Alyssa Hollowell</p>
 </footer>
     
 
